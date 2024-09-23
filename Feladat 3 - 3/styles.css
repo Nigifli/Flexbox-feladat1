@@ -1,0 +1,53 @@
+*
+{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    background-color: beige;
+}
+  
+.container {
+    height: 800px;
+    width: 40%;
+    display: flex;
+    flex-direction: column;
+}
+  
+header {
+    background-color: lightblue;
+    height: 10%; 
+  }
+  
+main {
+    height: 80%; 
+    display: flex;
+    gap: 2rem;
+}
+  
+.narancssarga {
+    background-color: orange;
+    width: 16.67%;
+}
+  
+.piros {
+    background-color: red;
+    width: 66.67%;
+}
+  
+.lila {
+    background-color: purple;
+    width: 16.67%;
+}
+  
+footer {
+    height: 10%; 
+    background-color: blue;
+}
+
+.kicsifekete {
+    height: 40px;
+    width: 40px;
+    background-color: black;
+    position: absolute;
+    right: 100px;
+}
